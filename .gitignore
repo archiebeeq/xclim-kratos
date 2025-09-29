@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+.venv/
+venv/
+kratos/venv/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pip
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# outputs and generated data
+kratos/outputs/
+outputs/
+
+# Ignore common data/text output files
+*.csv
+*.txt
+*.txt.temporary
+
+# Editor and OS files
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
